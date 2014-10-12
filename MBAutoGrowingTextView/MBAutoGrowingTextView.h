@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SAMTextView.h"
 
 /**
  * An auto-layout based light-weight UITextView subclass which automatically grows and shrinks
@@ -17,5 +18,9 @@
  
  Usage: subclass desired UITextView in IB and assign min-height and max-height constraints
  */
-@interface MBAutoGrowingTextView : UITextView
+
+//Added SAMTextView as superclass
+//@interface MBAutoGrowingTextView : UITextView
+@interface MBAutoGrowingTextView : SAMTextView
+
 @end
